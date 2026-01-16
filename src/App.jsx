@@ -65,6 +65,9 @@ function App() {
             <p className="text-white/40 text-xs mt-4">
               Demonstrating "Impact First, Details on Demand" for Zero to Three's FY25 Annual Report
             </p>
+            <p className="text-white/30 text-xs mt-6 max-w-md mx-auto">
+              Note: This prototype contains sample data for demonstration purposes. Actual metrics and stories may differ.
+            </p>
           </motion.div>
         </div>
       </footer>
