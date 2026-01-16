@@ -31,8 +31,8 @@ const Hero = () => {
           </p>
         </motion.div>
 
-        {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        {/* Stats Grid - 2x2 layout for better spacing */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
           {heroStats.map((stat) => (
             <StatCard
               key={stat.id}
