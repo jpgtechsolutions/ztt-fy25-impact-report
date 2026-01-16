@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import Hero from './components/Hero';
 import USMap from './components/USMap';
 import GrowthChart from './components/GrowthChart';
@@ -71,6 +72,9 @@ function App() {
           </motion.div>
         </div>
       </footer>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
