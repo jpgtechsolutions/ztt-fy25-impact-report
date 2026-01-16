@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Hero from './components/Hero';
 import USMap from './components/USMap';
 import GrowthChart from './components/GrowthChart';
+import StorySection from './components/StorySection';
 import ProgramCard from './components/ProgramCard';
 import { programs } from './data/metrics';
 
@@ -16,6 +17,9 @@ function App() {
 
       {/* Growth Chart Section */}
       <GrowthChart />
+
+      {/* Story-Based Section */}
+      <StorySection />
 
       {/* Programs Section */}
       <section className="py-20 bg-white">
